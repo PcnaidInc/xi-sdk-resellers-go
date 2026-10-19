@@ -358,6 +358,10 @@ Each of these functions takes a value of the given basic type and returns a poin
 * `PtrString`
 * `PtrTime`
 
+## CI
+
+The CI workflow (`.github/workflows/ci.yml`) runs on pull requests and pushes to `main`. It builds the module (`go build -v ./...`) and runs tests (`go test -v ./test/...`) across Go 1.19, 1.20, and 1.21.
+
 ## Author
 -[Ingram Micro Xvantage](https://github.com/ingrammicro-xvantage)
 
