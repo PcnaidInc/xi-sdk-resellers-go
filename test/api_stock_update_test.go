@@ -11,10 +11,9 @@ package xi_sdk_resellers
 
 import (
 	"context"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
+
+	openapiclient "github.com/ingrammicro-xvantage/xi-sdk-resellers-go"
 )
 
 func Test_xi_sdk_resellers_StockUpdateAPIService(t *testing.T) {

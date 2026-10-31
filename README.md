@@ -12,7 +12,6 @@ go get -u github.com/ingrammicro-xvantage/xi-sdk-resellers-go
 Install the following dependencies:
 
 ```sh
-go get github.com/stretchr/testify/assert
 go get golang.org/x/oauth2
 go get golang.org/x/net/context
 ```
@@ -357,6 +356,10 @@ Each of these functions takes a value of the given basic type and returns a poin
 * `PtrFloat64`
 * `PtrString`
 * `PtrTime`
+
+## CI
+
+The CI workflow (`.github/workflows/ci.yml`) runs on pull requests and pushes to `main`. It builds the module (`go build -v ./...`) and runs tests (`go test -v ./test/...`) across Go 1.19, 1.20, and 1.21.
 
 ## Author
 -[Ingram Micro Xvantage](https://github.com/ingrammicro-xvantage)
