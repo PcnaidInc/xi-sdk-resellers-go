@@ -12,7 +12,6 @@ go get -u github.com/ingrammicro-xvantage/xi-sdk-resellers-go
 Install the following dependencies:
 
 ```sh
-go get github.com/stretchr/testify/assert
 go get golang.org/x/oauth2
 go get golang.org/x/net/context
 ```
